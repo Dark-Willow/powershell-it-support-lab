@@ -28,7 +28,7 @@ Read-only exercises are performed on the personal Windows laptop. Potentially di
 |---|---|---|
 | Lab 01 | [PowerShell Environment Setup](notes/lab-01-powershell-environment-setup.md) | Complete |
 | Lab 02 | [System Information and Inventory](notes/lab-02-system-information-and-inventory.md) | Complete |
-| Lab 03 | Windows Services, Processes and Event Logs | Not Started |
+| Lab 03 | [Windows Services, Processes and Event Logs](notes/lab-03-services-processes-event-logs.md) | Complete |
 | Lab 04 | Network Troubleshooting with PowerShell | Not Started |
 | Lab 05 | Local User and Group Management | Not Started |
 | Lab 06 | PowerShell Automation and Support Workflow | Not Started |
@@ -87,10 +87,10 @@ Six practical exercises were completed:
 
 Build a practical PowerShell portfolio demonstrating skills relevant to entry-level IT Support, Help Desk, Service Desk, and Windows Support roles.
 
-
 ## Next Lab
 
-**Lab 03 — Windows Services, Processes and Event Logs**
+**Lab 04 — Network Troubleshooting with PowerShell**
 
-The next lab will focus on monitoring Windows services, inspecting running processes, investigating Windows event logs, and identifying common system troubleshooting issues using PowerShell.
+The next lab will focus on diagnosing network connectivity, testing DNS resolution, examining IP configuration, and troubleshooting common networking problems using PowerShell.
+
 
