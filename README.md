@@ -1,68 +1,94 @@
+
 # PowerShell for IT Support Lab
 
 ## Project Overview
 
-This repository documents a hands-on PowerShell lab focused on common Windows IT Support and Service Desk tasks.
+This repository documents hands-on PowerShell exercises focused on Windows IT Support and Service Desk operations.
 
-The purpose of this project is to develop practical skills in using PowerShell for system administration, troubleshooting, information gathering, local account management, and basic automation.
+The project develops practical skills in system administration, troubleshooting, information gathering, service monitoring, local user management, and basic automation.
 
-The lab uses Windows test environments and documents practical exercises with screenshots, scripts, troubleshooting notes, sample support tickets, and workflows.
+Each completed lab is supported by technical notes and screenshot evidence.
 
 ## Lab Environment
 
 | Component | Details |
 |---|---|
-| Platform | Microsoft Windows |
-| Shell | Windows PowerShell |
-| Lab Environment | Windows test machine / VirtualBox VM |
+| Operating System | Microsoft Windows |
+| PowerShell | Windows PowerShell 5.1 |
+| Primary Environment | Personal Windows laptop |
+| Virtualisation | VirtualBox for future isolated exercises |
 | Focus Areas | System information, services, event logs, networking, users, automation |
-| Documentation | Screenshots, scripts, notes, tickets, knowledge base, workflow |
+| Documentation | Screenshots, lab notes, scripts, tickets, knowledge base, workflows |
 
-## Completed Labs
+Read-only exercises are performed on the personal Windows laptop. Potentially disruptive administrative tasks will be tested in an isolated virtual machine where appropriate.
+
+## Lab Progress
 
 | Lab | Topic | Status |
 |---|---|---|
-| Lab 01 | PowerShell Environment Setup | Complete |
+| Lab 01 | [PowerShell Environment Setup](notes/lab-01-powershell-environment-setup.md) | Complete |
 | Lab 02 | System Information and Inventory | Not Started |
 | Lab 03 | Windows Services, Processes and Event Logs | Not Started |
 | Lab 04 | Network Troubleshooting with PowerShell | Not Started |
 | Lab 05 | Local User and Group Management | Not Started |
 | Lab 06 | PowerShell Automation and Support Workflow | Not Started |
 
-## Lab Notes
+## Completed Practical Exercises
 
-Lab notes will be added as each exercise is completed.
+### Lab 01 — PowerShell Environment Setup
 
-## PowerShell Scripts
+**Completed:** 14 November 2026
 
-Reusable PowerShell scripts will be added during the project.
+Six practical exercises were completed:
 
-## Sample Support Tickets
+1. PowerShell version verification
+2. Execution policy inspection
+3. PowerShell host identification
+4. Essential IT Support command verification
+5. PowerShell help system inspection
+6. Windows service information gathering
 
-Sample Service Desk tickets will be added during the project.
+**Results:**
+- Verified Windows PowerShell 5.1.
+- Confirmed the CurrentUser execution policy was RemoteSigned.
+- Verified essential troubleshooting commands were available.
+- Successfully retrieved Windows service information.
+- Completed all exercises without modifying system settings.
 
-## Knowledge Base
+**Documentation:** [Lab 01 Notes](notes/lab-01-powershell-environment-setup.md)
 
-PowerShell troubleshooting and command reference notes will be added during the project.
+**Evidence:** [Lab Screenshots](screenshots/)
 
-## Screenshots
+## Repository Structure
 
-Screenshots documenting practical PowerShell exercises will be added as the lab progresses.
-
-## Workflow Documentation
-
-The final IT Support automation and troubleshooting workflow will be added during Lab 06.
+- `screenshots/` — Evidence of practical exercises
+- `notes/` — Lab procedures, commands, and findings
+- `scripts/` — Reusable PowerShell scripts (planned)
+- `sample-tickets/` — Service Desk troubleshooting scenarios (planned)
+- `knowledge-base/` — Troubleshooting guides (planned)
+- `workflow/` — Support and automation workflows (planned)
 
 ## Skills Practised
 
 - PowerShell fundamentals
 - Windows system administration
+- Command discovery and documentation
+- Execution policy inspection
 - System information gathering
-- Windows services management
+- Windows service monitoring
 - Process monitoring
-- Event log investigation
+- Windows event log investigation
 - Network troubleshooting
 - Local user and group management
-- PowerShell scripting
-- Basic IT automation
-- Service Desk documentation
+- PowerShell scripting and automation
+- IT Support technical documentation
+
+## Project Goal
+
+Build a practical PowerShell portfolio demonstrating skills relevant to entry-level IT Support, Help Desk, Service Desk, and Windows Support roles.
+
+## Next Lab
+
+**Lab 02 — System Information and Inventory**
+
+The next lab will focus on collecting Windows operating system, hardware, memory, storage, and network configuration information using PowerShell.
