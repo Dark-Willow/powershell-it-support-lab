@@ -87,8 +87,10 @@ Six practical exercises were completed:
 
 Build a practical PowerShell portfolio demonstrating skills relevant to entry-level IT Support, Help Desk, Service Desk, and Windows Support roles.
 
+
 ## Next Lab
 
-**Lab 02 — System Information and Inventory**
+**Lab 03 — Windows Services, Processes and Event Logs**
 
-The next lab will focus on collecting Windows operating system, hardware, memory, storage, and network configuration information using PowerShell.
+The next lab will focus on monitoring Windows services, inspecting running processes, investigating Windows event logs, and identifying common system troubleshooting issues using PowerShell.
+
