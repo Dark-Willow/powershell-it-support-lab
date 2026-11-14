@@ -27,7 +27,7 @@ Read-only exercises are performed on the personal Windows laptop. Potentially di
 | Lab | Topic | Status |
 |---|---|---|
 | Lab 01 | [PowerShell Environment Setup](notes/lab-01-powershell-environment-setup.md) | Complete |
-| Lab 02 | System Information and Inventory | Not Started |
+| Lab 02 | [System Information and Inventory](notes/lab-02-system-information-and-inventory.md) | Complete |
 | Lab 03 | Windows Services, Processes and Event Logs | Not Started |
 | Lab 04 | Network Troubleshooting with PowerShell | Not Started |
 | Lab 05 | Local User and Group Management | Not Started |
