@@ -22,7 +22,7 @@ The lab uses Windows test environments and documents practical exercises with sc
 
 | Lab | Topic | Status |
 |---|---|---|
-| Lab 01 | PowerShell Environment Setup | Not Started |
+| Lab 01 | PowerShell Environment Setup | Complete |
 | Lab 02 | System Information and Inventory | Not Started |
 | Lab 03 | Windows Services, Processes and Event Logs | Not Started |
 | Lab 04 | Network Troubleshooting with PowerShell | Not Started |
