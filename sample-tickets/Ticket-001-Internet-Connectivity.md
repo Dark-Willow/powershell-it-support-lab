@@ -243,6 +243,58 @@ No network adapters, IP settings, DNS settings, or Windows services were modifie
 This was a simulated IT Support scenario performed on a working Windows 11 computer.
 
 
+## 8. Screenshot Evidence
+
+The following screenshots document the PowerShell troubleshooting process performed for Ticket INC-001.
+
+### 1. Network Adapter Inspection
+
+![Network Adapter Status](../screenshots/37-ticket001-network-adapters.png)
+
+Shows the status and link speeds of available network adapters.
+
+### 2. IP Configuration
+
+![IP Configuration](../screenshots/38-ticket001-ip-configuration.png)
+
+Shows the computer's IPv4 addresses and default gateway configuration.
+
+### 3. Default Gateway Connectivity
+
+![Gateway Connectivity](../screenshots/39-ticket001-gateway-connectivity.png)
+
+Shows the connectivity test to the local router at 192.168.0.1.
+
+### 4. External Internet Connectivity
+
+![Internet Connectivity](../screenshots/40-ticket001-internet-connectivity.png)
+
+Shows the external IP connectivity test using 1.1.1.1.
+
+### 5. DNS Resolution
+
+![DNS Resolution](../screenshots/41-ticket001-dns-resolution.png)
+
+Shows successful DNS resolution for google.com.
+
+### 6. HTTPS Connectivity
+
+![HTTPS Connectivity](../screenshots/42-ticket001-https-connectivity.png)
+
+Shows the TCP connectivity test to google.com on port 443.
+
+## 9. Final Verification
+
+All six diagnostic tests were completed and documented.
+
+**Final Ticket Status:** Closed — Issue Not Reproduced
+
+**Evidence:** Six PowerShell screenshots uploaded to the GitHub repository.
+
+**Conclusion:** No internet connectivity fault was detected during testing. No corrective changes were necessary.
+
+
+
 
 The exercise demonstrated a structured troubleshooting approach and accurate documentation without introducing or repairing an actual network fault.
 
