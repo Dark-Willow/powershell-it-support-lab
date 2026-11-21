@@ -32,6 +32,24 @@ Each ticket documents the reported issue, diagnostic commands, findings, root ca
 
 **Documentation:** [View Ticket INC-001](Ticket-001-Internet-Connectivity.md)
 
+
+## Ticket 002 — Slow Computer Performance
+
+**Date:** 21 November 2026
+
+**Scenario:** A user reports that their Windows computer is running unusually slowly.
+
+**Troubleshooting performed:**
+- Identified memory-intensive processes
+- Measured CPU utilisation
+- Analysed physical memory usage
+- Checked available disk space
+- Measured disk response times
+
+**Outcome:** No significant CPU, RAM, or disk performance bottleneck was observed during testing. The reported issue could not be reproduced, and no corrective action was necessary.
+
+**Documentation:** [View Ticket INC-002](Ticket-002-Slow-Computer-Performance.md)
+
 ## Troubleshooting Methodology
 
 Each Service Desk scenario follows a structured process:
