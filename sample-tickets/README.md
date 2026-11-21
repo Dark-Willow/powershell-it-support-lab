@@ -7,10 +7,10 @@ Each ticket documents the reported issue, diagnostic commands, findings, root ca
 
 ## Completed Tickets
 
+
 | Ticket ID | Issue | Status | Evidence |
 |---|---|---|---|
 | INC-001 | [Internet Connectivity Troubleshooting](Ticket-001-Internet-Connectivity.md) | Closed — Issue Not Reproduced | 6 screenshots |
-
 | INC-002 | [Slow Computer Performance](Ticket-002-Slow-Computer-Performance.md) | Closed — Issue Not Reproduced | 5 screenshots |
 
 
