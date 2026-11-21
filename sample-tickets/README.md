@@ -64,6 +64,24 @@ Each Service Desk scenario follows a structured process:
 6. Document corrective actions or explain why none were required.
 7. Record the final ticket outcome.
 
+
+## Ticket 003 — Windows Update Installation Failure
+
+**Date:** 21 November 2026
+
+**Scenario:** A user reports that Windows updates are failing to install.
+
+**Troubleshooting performed:**
+- Inspected Windows Update-related services
+- Reviewed Windows Update operational events
+- Checked for warnings and errors from the previous 30 days
+- Examined the ten most recent Windows Update history entries
+
+**Outcome:** All ten reviewed update history entries showed successful results. No matching warnings or errors were found in the selected operational log during the previous 30 days. The reported installation failure was not reproduced.
+
+**Documentation:** [View Ticket INC-003](Ticket-003-Windows-Update-Failure.md)
+
+
 ## Skills Demonstrated
 
 - Windows PowerShell troubleshooting
