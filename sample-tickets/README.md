@@ -12,6 +12,8 @@ Each ticket documents the reported issue, diagnostic commands, findings, root ca
 |---|---|---|---|
 | INC-001 | [Internet Connectivity Troubleshooting](Ticket-001-Internet-Connectivity.md) | Closed — Issue Not Reproduced | 6 screenshots |
 | INC-002 | [Slow Computer Performance](Ticket-002-Slow-Computer-Performance.md) | Closed — Issue Not Reproduced | 5 screenshots |
+| INC-003 | [Windows Update Installation Failure](Ticket-003-Windows-Update-Failure.md) | Closed — Issue Not Reproduced | 4 screenshots |
+
 
 
 ## Ticket 001 — Internet Connectivity
