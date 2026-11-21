@@ -32,8 +32,11 @@ Read-only exercises are performed on the personal Windows laptop. Potentially di
 | Lab 04 | [Network Troubleshooting with PowerShell](notes/lab-04-network-troubleshooting.md) | Complete |
 | Lab 05 | Local User and Group Management | Deferred |
 | Lab 06 | [PowerShell Automation and Support Workflow](notes/lab-06-powershell-automation-and-support-workflow.md) | Complete |
+| Lab 07 | [Practical IT Support Troubleshooting Scenarios](sample-tickets/README.md) | In Progress — 2 tickets documented |
 
-**Progress: 5 completed labs, 1 deferred lab.**
+
+
+**Progress: 5 completed labs, 1 deferred lab, and 1 lab in progress.**
 
 ## Completed Practical Exercises
 
