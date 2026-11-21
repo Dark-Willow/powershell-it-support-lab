@@ -52,19 +52,6 @@ Each ticket documents the reported issue, diagnostic commands, findings, root ca
 
 **Documentation:** [View Ticket INC-002](Ticket-002-Slow-Computer-Performance.md)
 
-## Troubleshooting Methodology
-
-Each Service Desk scenario follows a structured process:
-
-1. Identify and document the reported issue.
-2. Gather system information.
-3. Perform appropriate diagnostic tests.
-4. Analyse the results.
-5. Determine whether a root cause can be established.
-6. Document corrective actions or explain why none were required.
-7. Record the final ticket outcome.
-
-
 ## Ticket 003 — Windows Update Installation Failure
 
 **Date:** 21 November 2026
@@ -80,7 +67,17 @@ Each Service Desk scenario follows a structured process:
 **Outcome:** All ten reviewed update history entries showed successful results. No matching warnings or errors were found in the selected operational log during the previous 30 days. The reported installation failure was not reproduced.
 
 **Documentation:** [View Ticket INC-003](Ticket-003-Windows-Update-Failure.md)
+## Troubleshooting Methodology
 
+Each Service Desk scenario follows a structured process:
+
+1. Identify and document the reported issue.
+2. Gather system information.
+3. Perform appropriate diagnostic tests.
+4. Analyse the results.
+5. Determine whether a root cause can be established.
+6. Document corrective actions or explain why none were required.
+7. Record the final ticket outcome.
 
 ## Skills Demonstrated
 
