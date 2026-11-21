@@ -30,8 +30,8 @@ Read-only exercises are performed on the personal Windows laptop. Potentially di
 | Lab 02 | [System Information and Inventory](notes/lab-02-system-information-and-inventory.md) | Complete |
 | Lab 03 | [Windows Services, Processes and Event Logs](notes/lab-03-services-processes-event-logs.md) | Complete |
 | Lab 04 | [Network Troubleshooting with PowerShell](notes/lab-04-network-troubleshooting.md) | Complete |
-| Lab 05 | Local User and Group Management | Not Started |
-| Lab 06 | PowerShell Automation and Support Workflow | Not Started |
+| Lab 05 | Local User and Group Management | Deferred |
+| Lab 06 | PowerShell Automation and Support Workflow | Completed |
 
 ## Completed Practical Exercises
 
