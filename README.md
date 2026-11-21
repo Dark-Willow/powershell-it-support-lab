@@ -32,11 +32,10 @@ Read-only exercises are performed on the personal Windows laptop. Potentially di
 | Lab 04 | [Network Troubleshooting with PowerShell](notes/lab-04-network-troubleshooting.md) | Complete |
 | Lab 05 | Local User and Group Management | Deferred |
 | Lab 06 | [PowerShell Automation and Support Workflow](notes/lab-06-powershell-automation-and-support-workflow.md) | Complete |
-| Lab 07 | [Practical IT Support Troubleshooting Scenarios](sample-tickets/README.md) | In Progress — 2 tickets documented |
+| Lab 07 | [Practical IT Support Troubleshooting Scenarios](sample-tickets/README.md) | Complete — 3 tickets documented |
 
 
-
-**Progress: 5 completed labs, 1 deferred lab, and 1 lab in progress.**
+**Progress: 6 completed labs and 1 deferred lab.**
 
 ## Completed Practical Exercises
 
@@ -120,9 +119,11 @@ Seven practical exercises were completed:
 **Evidence:** [Lab Screenshots](screenshots/)
 
 
+
 ### Lab 07 — Practical IT Support Troubleshooting Scenarios
 
-**Status:** In Progress
+**Status:** Complete
+**Completed:** 21 November 2026
 
 This lab demonstrates practical Service Desk troubleshooting using Windows PowerShell and structured incident documentation.
 
@@ -132,7 +133,25 @@ This lab demonstrates practical Service Desk troubleshooting using Windows Power
 
 2. **INC-002 — Slow Computer Performance:** Investigated running processes, CPU utilisation, RAM usage, disk capacity, and disk latency. Five screenshots recorded.
 
-Both simulated incidents were closed as **Issue Not Reproduced**, with no corrective action required.
+3. **INC-003 — Windows Update Installation Failure:** Investigated Windows Update services, operational event logs, warnings, errors, and recent update installation history. Four screenshots recorded.
+
+All three simulated incidents were closed as **Issue Not Reproduced**, with no corrective action required.
+
+**Results:**
+- Completed three structured IT Support investigations.
+- Documented findings, root cause assessments, and ticket outcomes.
+- Collected 15 screenshots of diagnostic evidence.
+- Published all three tickets on GitHub.
+
+**Skills demonstrated:**
+- Systematic troubleshooting
+- PowerShell diagnostics
+- Incident documentation
+- Evidence collection
+- Root cause assessment
+
+**Documentation:** [Service Desk Ticket Portfolio](sample-tickets/README.md)
+
 
 **Skills demonstrated:**
 - Systematic troubleshooting
