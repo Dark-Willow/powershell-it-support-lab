@@ -310,6 +310,25 @@ All diagnostic commands were read-only.
 
 The investigation demonstrated a structured approach to assessing Windows performance without making potentially disruptive changes to the operating system.
 
+## 8. Screenshot Evidence
+
+The following screenshots document the PowerShell diagnostic checks performed during this investigation.
+
+### Process Memory Usage
+![Process Memory Usage](../screenshots/43-ticket002-process-memory.png)
+
+### CPU Utilisation
+![CPU Utilisation](../screenshots/44-ticket002-cpu-utilisation.png)
+
+### RAM Utilisation
+![RAM Utilisation](../screenshots/45-ticket002-ram-utilisation.png)
+
+### Disk Space
+![Disk Space](../screenshots/46-ticket002-disk-space.png)
+
+### Disk Latency
+![Disk Latency](../screenshots/47-ticket002-disk-latency.png)
+
 
 
 **Final Conclusion:** No performance fault was reproduced during the testing period.
