@@ -1,28 +1,28 @@
-\# IT Support Ticket 002 — Slow Computer Performance
+﻿# IT Support Ticket 002 — Slow Computer Performance
 
 
 
-\## Ticket Information
+## Ticket Information
 
 
 
-\*\*Ticket ID:\*\* INC-002  
+**Ticket ID:** INC-002  
 
-\*\*Date:\*\* 21 November 2026  
+**Date:** 21 November 2026  
 
-\*\*Category:\*\* Hardware / System Performance  
+**Category:** Hardware / System Performance  
 
-\*\*Priority:\*\* Medium (Simulated)  
+**Priority:** Medium (Simulated)  
 
-\*\*Status:\*\* Closed — Issue Not Reproduced  
+**Status:** Closed — Issue Not Reproduced  
 
-\*\*Environment:\*\* Windows 11 Pro  
+**Environment:** Windows 11 Pro  
 
-\*\*Diagnostic Tool:\*\* Windows PowerShell 5.1
+**Diagnostic Tool:** Windows PowerShell 5.1
 
 
 
-\## 1. Issue Description
+## 1. Issue Description
 
 
 
@@ -38,15 +38,15 @@ The investigation was conducted using read-only PowerShell commands.
 
 
 
-\## 2. Troubleshooting Steps
+## 2. Troubleshooting Steps
 
 
 
-\### Step 1 — Identify Memory-Intensive Processes
+### Step 1 — Identify Memory-Intensive Processes
 
 
 
-\*\*Command:\*\* `Get-Process`
+**Command:** `Get-Process`
 
 
 
@@ -54,7 +54,7 @@ Processes were sorted by their physical memory usage using `WorkingSet64`.
 
 
 
-\*\*Findings:\*\*
+**Findings:**
 
 
 
@@ -78,19 +78,19 @@ Multiple Brave Browser processes were observed.
 
 
 
-\*\*Assessment:\*\* Several applications were consuming memory, but the results did not establish excessive memory pressure or identify a malfunctioning process.
+**Assessment:** Several applications were consuming memory, but the results did not establish excessive memory pressure or identify a malfunctioning process.
 
 
 
-\### Step 2 — Measure CPU Utilisation
+### Step 2 — Measure CPU Utilisation
 
 
 
-\*\*Command:\*\* `Get-Counter '\\Processor(\_Total)\\% Processor Time'`
+**Command:** `Get-Counter '\\Processor(\_Total)\\% Processor Time'`
 
 
 
-\*\*Results:\*\*
+**Results:**
 
 
 
@@ -110,73 +110,73 @@ Multiple Brave Browser processes were observed.
 
 
 
-\*\*Average CPU Utilisation:\*\* 4.30%
+**Average CPU Utilisation:** 4.30%
 
 
 
-\*\*Assessment:\*\* CPU utilisation was low during the five samples. No sustained CPU bottleneck was observed during testing.
+**Assessment:** CPU utilisation was low during the five samples. No sustained CPU bottleneck was observed during testing.
 
 
 
-\### Step 3 — Analyse Physical Memory
+### Step 3 — Analyse Physical Memory
 
 
 
-\*\*Command:\*\* `Get-CimInstance Win32\_OperatingSystem`
+**Command:** `Get-CimInstance Win32\_OperatingSystem`
 
 
 
-\*\*Results:\*\*
+**Results:**
 
 
 
-\- Total physical RAM: 31.85 GB
+- Total physical RAM: 31.85 GB
 
-\- Available RAM: 16.72 GB
+- Available RAM: 16.72 GB
 
-\- RAM utilisation: 47.51%
-
-
-
-\*\*Assessment:\*\* Approximately half of the available physical memory was in use. No evidence of memory exhaustion was identified during testing.
+- RAM utilisation: 47.51%
 
 
 
-\### Step 4 — Check Disk Capacity
+**Assessment:** Approximately half of the available physical memory was in use. No evidence of memory exhaustion was identified during testing.
 
 
 
-\*\*Command:\*\* `Get-CimInstance Win32\_LogicalDisk`
+### Step 4 — Check Disk Capacity
 
 
 
-\*\*Results:\*\*
+**Command:** `Get-CimInstance Win32\_LogicalDisk`
 
 
 
-\- Drive: C:
-
-\- Total capacity: 952.17 GB
-
-\- Available storage: 214.80 GB
-
-\- Free storage: 22.56%
+**Results:**
 
 
 
-\*\*Assessment:\*\* The system drive had approximately 215 GB of available storage. Insufficient free disk space was not identified as a likely cause of poor performance.
+- Drive: C:
+
+- Total capacity: 952.17 GB
+
+- Available storage: 214.80 GB
+
+- Free storage: 22.56%
 
 
 
-\### Step 5 — Measure Disk Response Time
+**Assessment:** The system drive had approximately 215 GB of available storage. Insufficient free disk space was not identified as a likely cause of poor performance.
 
 
 
-\*\*Command:\*\* `Get-Counter '\\PhysicalDisk(\_Total)\\Avg. Disk sec/Transfer'`
+### Step 5 — Measure Disk Response Time
 
 
 
-\*\*Results:\*\*
+**Command:** `Get-Counter '\\PhysicalDisk(\_Total)\\Avg. Disk sec/Transfer'`
+
+
+
+**Results:**
 
 
 
@@ -196,15 +196,15 @@ Multiple Brave Browser processes were observed.
 
 
 
-\*\*Average Disk Latency:\*\* 0.88 ms
+**Average Disk Latency:** 0.88 ms
 
 
 
-\*\*Assessment:\*\* Disk response times were low during testing. No significant disk latency was observed in the collected samples.
+**Assessment:** Disk response times were low during testing. No significant disk latency was observed in the collected samples.
 
 
 
-\## 3. Root Cause Analysis
+## 3. Root Cause Analysis
 
 
 
@@ -216,15 +216,15 @@ The diagnostic results showed:
 
 
 
-\- Low CPU utilisation.
+- Low CPU utilisation.
 
-\- Available physical memory.
+- Available physical memory.
 
-\- Sufficient free storage space.
+- Sufficient free storage space.
 
-\- Low disk response times.
+- Low disk response times.
 
-\- No confirmed malfunctioning process.
+- No confirmed malfunctioning process.
 
 
 
@@ -236,7 +236,7 @@ Because the reported performance issue was not reproduced, a definitive root cau
 
 
 
-\## 4. Resolution
+## 4. Resolution
 
 
 
@@ -256,47 +256,47 @@ For a real unresolved incident, further investigation could include collecting t
 
 
 
-\## 5. Ticket Outcome
+## 5. Ticket Outcome
 
 
 
-\*\*Final Status:\*\* Closed — Issue Not Reproduced
+**Final Status:** Closed — Issue Not Reproduced
 
 
 
-\*\*Resolution Summary:\*\* System performance diagnostics completed successfully. No significant CPU, RAM, or disk performance bottleneck was observed during testing.
+**Resolution Summary:** System performance diagnostics completed successfully. No significant CPU, RAM, or disk performance bottleneck was observed during testing.
 
 
 
-\*\*Corrective Actions:\*\* None required during the simulated investigation.
+**Corrective Actions:** None required during the simulated investigation.
 
 
 
-\## 6. Skills Demonstrated
+## 6. Skills Demonstrated
 
 
 
-\- Windows process inspection
+- Windows process inspection
 
-\- CPU performance monitoring
+- CPU performance monitoring
 
-\- Physical memory analysis
+- Physical memory analysis
 
-\- Disk capacity assessment
+- Disk capacity assessment
 
-\- Disk latency monitoring
+- Disk latency monitoring
 
-\- PowerShell performance counters
+- PowerShell performance counters
 
-\- Troubleshooting methodology
+- Troubleshooting methodology
 
-\- Root cause assessment
+- Root cause assessment
 
-\- Service Desk ticket documentation
+- Service Desk ticket documentation
 
 
 
-\## 7. Technician Notes
+## 7. Technician Notes
 
 
 
@@ -312,5 +312,6 @@ The investigation demonstrated a structured approach to assessing Windows perfor
 
 
 
-\*\*Final Conclusion:\*\* No performance fault was reproduced during the testing period.
+**Final Conclusion:** No performance fault was reproduced during the testing period.
+
 
