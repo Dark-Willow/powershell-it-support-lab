@@ -152,15 +152,6 @@ All three simulated incidents were closed as **Issue Not Reproduced**, with no c
 
 **Documentation:** [Service Desk Ticket Portfolio](sample-tickets/README.md)
 
-**Skills demonstrated:**
-- Systematic troubleshooting
-- PowerShell diagnostics
-- Incident documentation
-- Evidence collection
-- Root cause assessment
-
-**Documentation:** [Service Desk Ticket Portfolio](sample-tickets/README.md)
-
 ## Repository Structure
 
 - `screenshots/` — Evidence of completed practical exercises
