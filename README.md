@@ -5,7 +5,7 @@
 
 This repository documents hands-on PowerShell exercises focused on Windows IT Support and Service Desk operations.
 
-The project develops practical skills in system administration, troubleshooting, information gathering, service monitoring, local user management, and basic automation.
+The project develops practical skills in system administration, troubleshooting, information gathering, service monitoring, networking, and PowerShell automation.
 
 Each completed lab is supported by technical notes and screenshot evidence.
 
@@ -13,12 +13,12 @@ Each completed lab is supported by technical notes and screenshot evidence.
 
 | Component | Details |
 |---|---|
-| Operating System | Microsoft Windows |
+| Operating System | Windows 11 Pro |
 | PowerShell | Windows PowerShell 5.1 |
 | Primary Environment | Personal Windows laptop |
 | Virtualisation | VirtualBox for future isolated exercises |
-| Focus Areas | System information, services, event logs, networking, users, automation |
-| Documentation | Screenshots, lab notes, scripts, tickets, knowledge base, workflows |
+| Focus Areas | System information, services, event logs, networking, automation |
+| Documentation | Screenshots, lab notes, and reusable scripts |
 
 Read-only exercises are performed on the personal Windows laptop. Potentially disruptive administrative tasks will be tested in an isolated virtual machine where appropriate.
 
@@ -31,7 +31,9 @@ Read-only exercises are performed on the personal Windows laptop. Potentially di
 | Lab 03 | [Windows Services, Processes and Event Logs](notes/lab-03-services-processes-event-logs.md) | Complete |
 | Lab 04 | [Network Troubleshooting with PowerShell](notes/lab-04-network-troubleshooting.md) | Complete |
 | Lab 05 | Local User and Group Management | Deferred |
-| Lab 06 | PowerShell Automation and Support Workflow | Completed |
+| Lab 06 | [PowerShell Automation and Support Workflow](notes/lab-06-powershell-automation-and-support-workflow.md) | Complete |
+
+**Progress: 5 completed labs, 1 deferred lab.**
 
 ## Completed Practical Exercises
 
@@ -57,16 +59,71 @@ Six practical exercises were completed:
 
 **Documentation:** [Lab 01 Notes](notes/lab-01-powershell-environment-setup.md)
 
+### Labs 02–04 — Windows Support and Troubleshooting
+
+Completed practical exercises covering:
+
+- Operating system and hardware information
+- System inventory and storage information
+- Windows services and running processes
+- Windows event log investigation
+- Network configuration and troubleshooting
+
+**Documentation:**
+- [Lab 02 — System Information and Inventory](notes/lab-02-system-information-and-inventory.md)
+- [Lab 03 — Services, Processes and Event Logs](notes/lab-03-services-processes-event-logs.md)
+- [Lab 04 — Network Troubleshooting](notes/lab-04-network-troubleshooting.md)
+
+### Lab 05 — Local User and Group Management
+
+**Status:** Deferred
+
+This lab requires an isolated Windows virtual machine for practising user account and group management safely.
+
+The lab was deferred after difficulties installing the required Windows virtual machine.
+
+It will be revisited when a suitable test environment is available.
+
+### Lab 06 — PowerShell Automation and Support Workflow
+
+**Completed:** 19 November 2026
+
+Seven practical exercises were completed:
+
+1. Create a PowerShell workspace
+2. Automate system health checks
+3. Export system health reports
+4. Monitor important Windows services
+5. Export service health reports
+6. Build an automated diagnostic workflow
+7. Verify generated diagnostic reports
+
+**Results:**
+- Created three reusable PowerShell scripts.
+- Automated Windows system information collection.
+- Monitored five Windows services.
+- Generated text-based diagnostic reports.
+- Created timestamped reports using a combined automation script.
+- Verified that the generated report files contained data.
+- Documented the exercises with seven screenshots.
+
+**PowerShell Scripts:**
+- [Get-SystemHealth.ps1](scripts/Get-SystemHealth.ps1)
+- [Get-ServiceHealth.ps1](scripts/Get-ServiceHealth.ps1)
+- [Run-ITDiagnostics.ps1](scripts/Run-ITDiagnostics.ps1)
+
+**Documentation:** [Lab 06 Notes](notes/lab-06-powershell-automation-and-support-workflow.md)
+
 **Evidence:** [Lab Screenshots](screenshots/)
 
 ## Repository Structure
 
-- `screenshots/` — Evidence of practical exercises
-- `notes/` — Lab procedures, commands, and findings
-- `scripts/` — Reusable PowerShell scripts (planned)
-- `sample-tickets/` — Service Desk troubleshooting scenarios (planned)
-- `knowledge-base/` — Troubleshooting guides (planned)
-- `workflow/` — Support and automation workflows (planned)
+- `screenshots/` — Evidence of completed practical exercises
+- `notes/` — Lab procedures, commands, results, and findings
+- `scripts/` — Reusable PowerShell automation scripts
+- `sample-tickets/` — Planned Service Desk troubleshooting scenarios
+- `knowledge-base/` — Planned troubleshooting guides
+- `workflow/` — Planned IT Support workflows
 
 ## Skills Practised
 
@@ -79,17 +136,20 @@ Six practical exercises were completed:
 - Process monitoring
 - Windows event log investigation
 - Network troubleshooting
-- Local user and group management
 - PowerShell scripting and automation
-- IT Support technical documentation
+- Variables, arrays, loops, and conditional logic
+- Automated diagnostic report generation
+- Technical documentation
+- GitHub version control
 
 ## Project Goal
 
-Build a practical PowerShell portfolio demonstrating skills relevant to entry-level IT Support, Help Desk, Service Desk, and Windows Support roles.
+Build a practical PowerShell portfolio demonstrating skills relevant to entry-level IT Support, Help Desk, Service Desk, Desktop Support, and Windows Support roles.
 
-## Next Lab
+## Next Steps
 
-**Lab 05 — Local User and Group Management**
-
-This lab will cover managing local Windows user accounts, inspecting security groups, and understanding account permissions using PowerShell in an isolated virtual machine.
-
+- Revisit Lab 05 when a suitable Windows virtual machine is available.
+- Continue developing PowerShell automation skills.
+- Expand the repository with realistic IT Support troubleshooting scenarios.
+- Create Service Desk tickets and knowledge base documentation.
+- Develop additional reusable troubleshooting scripts.
