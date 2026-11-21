@@ -119,12 +119,36 @@ Seven practical exercises were completed:
 
 **Evidence:** [Lab Screenshots](screenshots/)
 
+
+### Lab 07 — Practical IT Support Troubleshooting Scenarios
+
+**Status:** In Progress
+
+This lab demonstrates practical Service Desk troubleshooting using Windows PowerShell and structured incident documentation.
+
+**Documented scenarios:**
+
+1. **INC-001 — Internet Connectivity:** Investigated network adapters, IP configuration, gateway connectivity, DNS resolution, and internet access. Six screenshots recorded.
+
+2. **INC-002 — Slow Computer Performance:** Investigated running processes, CPU utilisation, RAM usage, disk capacity, and disk latency. Five screenshots recorded.
+
+Both simulated incidents were closed as **Issue Not Reproduced**, with no corrective action required.
+
+**Skills demonstrated:**
+- Systematic troubleshooting
+- PowerShell diagnostics
+- Incident documentation
+- Evidence collection
+- Root cause assessment
+
+**Documentation:** [Service Desk Ticket Portfolio](sample-tickets/README.md)
+
 ## Repository Structure
 
 - `screenshots/` — Evidence of completed practical exercises
 - `notes/` — Lab procedures, commands, results, and findings
 - `scripts/` — Reusable PowerShell automation scripts
-- `sample-tickets/` — Planned Service Desk troubleshooting scenarios
+- `sample-tickets/` — Documented Service Desk troubleshooting scenarios
 - `knowledge-base/` — Planned troubleshooting guides
 - `workflow/` — Planned IT Support workflows
 
